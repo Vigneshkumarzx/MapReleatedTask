@@ -81,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				429DAF3327BCDEBB003D5EC5 /* MapReleatedTask */,
-				42C84A9F27BCFBE300E6A0D1 /* Extension+Markers */,
-				42C84A9627BCF93E00E6A0D1 /* NetworkService */,
 				429DAF3227BCDEBB003D5EC5 /* Products */,
 				22E6FE588E0BE3E8DD39227D /* Pods */,
 				95D7EED1E346E88147EE9A13 /* Frameworks */,
@@ -100,9 +98,14 @@
 		429DAF3327BCDEBB003D5EC5 /* MapReleatedTask */ = {
 			isa = PBXGroup;
 			children = (
+				42C84ABE27BE1C8700E6A0D1 /* Responce */,
+				42C84ABC27BE1C3A00E6A0D1 /* Models */,
 				429DAF4827BCDF5C003D5EC5 /* Delegates */,
+				42C84ABB27BE1C0B00E6A0D1 /* ViewControllers */,
 				429DAF4927BCF68D003D5EC5 /* Scenes */,
 				429DAF3D27BCDEBD003D5EC5 /* Assets.xcassets */,
+				42C84A9627BCF93E00E6A0D1 /* NetworkService */,
+				42C84A9F27BCFBE300E6A0D1 /* Extension+Markers */,
 				429DAF4A27BCF6F4003D5EC5 /* StoryBoard */,
 				429DAF3F27BCDEBD003D5EC5 /* LaunchScreen.storyboard */,
 				429DAF4227BCDEBD003D5EC5 /* Info.plist */,
@@ -122,16 +125,7 @@
 		429DAF4927BCF68D003D5EC5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				429DAF3827BCDEBB003D5EC5 /* HomeViewController.swift */,
-				42C84A9427BCF78A00E6A0D1 /* HomeViewModel.swift */,
-				42C84A9D27BCF9FE00E6A0D1 /* Response.swift */,
-				42C84AA727BD0BAC00E6A0D1 /* NearByRestaurantsController.swift */,
-				42C84AA927BD0C7500E6A0D1 /* NearByResponse.swift */,
-				42C84AAB27BD0CA300E6A0D1 /* NearbyViewModel.swift */,
-				42C84AB127BD0E6A00E6A0D1 /* NearByRestTableViewCell.swift */,
-				42C84AB227BD0E6A00E6A0D1 /* NearByRestTableViewCell.xib */,
-				42C84AB727BE0BB300E6A0D1 /* NearbyRest1TableViewCell.swift */,
-				42C84AB827BE0BB300E6A0D1 /* NearbyRest1TableViewCell.xib */,
+				42C84ABD27BE1C6800E6A0D1 /* TableViewCells */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -161,6 +155,44 @@
 				42C84AA227BCFE3900E6A0D1 /* ViewControllerExtension.swift */,
 			);
 			path = "Extension+Markers";
+			sourceTree = "<group>";
+		};
+		42C84ABB27BE1C0B00E6A0D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				429DAF3827BCDEBB003D5EC5 /* HomeViewController.swift */,
+				42C84AA727BD0BAC00E6A0D1 /* NearByRestaurantsController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42C84ABC27BE1C3A00E6A0D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42C84A9427BCF78A00E6A0D1 /* HomeViewModel.swift */,
+				42C84AAB27BD0CA300E6A0D1 /* NearbyViewModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		42C84ABD27BE1C6800E6A0D1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				42C84AB727BE0BB300E6A0D1 /* NearbyRest1TableViewCell.swift */,
+				42C84AB827BE0BB300E6A0D1 /* NearbyRest1TableViewCell.xib */,
+				42C84AB127BD0E6A00E6A0D1 /* NearByRestTableViewCell.swift */,
+				42C84AB227BD0E6A00E6A0D1 /* NearByRestTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		42C84ABE27BE1C8700E6A0D1 /* Responce */ = {
+			isa = PBXGroup;
+			children = (
+				42C84AA927BD0C7500E6A0D1 /* NearByResponse.swift */,
+				42C84A9D27BCF9FE00E6A0D1 /* Response.swift */,
+			);
+			path = Responce;
 			sourceTree = "<group>";
 		};
 		95D7EED1E346E88147EE9A13 /* Frameworks */ = {
